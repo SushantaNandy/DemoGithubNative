@@ -54,7 +54,12 @@ public class Demo1 extends Capabilities{
 		Thread.sleep(2000);
 		driver.findElement(MobileBy.AccessibilityId("Battery Saver")).click();
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
-		System.out.println("i love you sir");
+<<<<<<< HEAD
+		System.out.println("bro code");
+=======
+		System.out.println("super man");
+		
+>>>>>>> branch 'master' of https://github.com/SushantaNandy/DemoGithubNative.git
 	}
 	}
 
